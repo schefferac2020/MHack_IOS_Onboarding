@@ -16,7 +16,8 @@ Next you're going to want to open up Xcode and click "clone an existing project"
 
 Paste the link you just copied into the text field at the top of the window and click __Clone__. This will prompt you for where you want to save the project on your computer. I recommend making some folder where you'll put all of your apps if you don't already have one. Once that is done cloning, go back to Xcode and you should see the project in the right hand view. Double click it and you'll open your project!
   
-## 3. Getting Familiar With Xcode
+## Next Section
+In the next section we'll be learning about setting up the UIView, working with constraints, and going over the general sections of Xcode! woop woop
   
 
   
