@@ -16,18 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M89-MM-shI">
-                                <rect key="frame" x="147" y="729" width="120" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="d9X-bG-sy0"/>
-                                </constraints>
-                                <state key="normal" title="Go!"/>
-                            </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="4W7-On-qnT">
                                 <rect key="frame" x="21" y="610" width="378" height="61"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="R1h-sB-X64"/>
-                                </constraints>
                                 <color key="minimumTrackTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.51797945209999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.49510380990000002" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
@@ -47,40 +37,35 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20.5" id="76A-ye-ppO"/>
-                                </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess the Number!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxA-bG-f9V">
-                                <rect key="frame" x="0.0" y="155" width="414" height="173"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="173" id="I9X-tk-ixY"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guess a Number!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMc-3V-zDm">
+                                <rect key="frame" x="20" y="176" width="138" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3y-by-XFO">
+                                <rect key="frame" x="186" y="756" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Guess!"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="4W7-On-qnT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="3uH-Hq-bqU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4W7-On-qnT" secondAttribute="trailing" constant="17" id="6mQ-AA-bO1"/>
-                            <constraint firstItem="M89-MM-shI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="147" id="HT6-YK-40C"/>
-                            <constraint firstItem="1Jm-mw-RCY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="Ikf-WE-elK"/>
-                            <constraint firstItem="4W7-On-qnT" firstAttribute="top" secondItem="1Jm-mw-RCY" secondAttribute="bottom" constant="3.5" id="MGn-vI-lxg"/>
-                            <constraint firstItem="qxA-bG-f9V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pv8-lb-IW2"/>
-                            <constraint firstItem="qxA-bG-f9V" firstAttribute="centerX" secondItem="M89-MM-shI" secondAttribute="centerX" id="VHx-gf-tdF"/>
-                            <constraint firstItem="qxA-bG-f9V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="VXg-jH-JQ9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M89-MM-shI" secondAttribute="bottom" constant="102" id="aaK-Hg-uaW"/>
-                            <constraint firstItem="M89-MM-shI" firstAttribute="top" secondItem="4W7-On-qnT" secondAttribute="bottom" constant="59" id="tzc-4W-t8p"/>
-                            <constraint firstItem="qxA-bG-f9V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zOL-Mi-NhV"/>
+                            <constraint firstItem="1Jm-mw-RCY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="3oi-t8-iWP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4W7-On-qnT" secondAttribute="bottom" constant="192" id="HpN-9n-gQ9"/>
+                            <constraint firstItem="4W7-On-qnT" firstAttribute="top" secondItem="1Jm-mw-RCY" secondAttribute="bottom" constant="3.5" id="VPS-6L-CrJ"/>
+                            <constraint firstItem="1Jm-mw-RCY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="542" id="X38-g7-Kqh"/>
+                            <constraint firstItem="4W7-On-qnT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="gER-RY-J1u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4W7-On-qnT" secondAttribute="trailing" constant="17" id="jhO-IA-mTU"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+            <point key="canvasLocation" x="34.782608695652179" y="73.660714285714278"/>
         </scene>
     </scenes>
     <resources>
