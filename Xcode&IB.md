@@ -41,7 +41,7 @@ Once you click run you should see your app running on the simulator! Click the b
 
 ## Challenge
 See if you can change some of the basic attributes of the UI elements on the screen (You might want to explore the "attribute inspector" to be pretty useful). This is what I made it look like: \
-![Screen Shot 2021-09-23 at 1 00 42 AM](https://user-images.githubusercontent.com/54146662/134456755-1f96ce11-8204-430f-8a31-9be083a2f3d4.png)
+![Screen Shot 2021-09-23 at 1 00 42 AM](https://user-images.githubusercontent.com/54146662/134456755-1f96ce11-8204-430f-8a31-9be083a2f3d4.png) \
 Feel free to experiment! Best way to learn is to experiment and break stuff. That's why cmd+z is a thing.
 
 ## Next Section
