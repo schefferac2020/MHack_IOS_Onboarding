@@ -14,6 +14,7 @@ Yes. I know. It looks disgusting. But after you program all the functionallity o
 Below are the links to the steps of the project. Click one to get started.
 - [Setup](https://github.com/schefferac2020/MHack_IOS_Onboarding/blob/main/Setup.md)
 - [Xcode and Interface Builder](https://github.com/schefferac2020/MHack_IOS_Onboarding/blob/main/Xcode%26IB.md)
+- [Swift, Actions, and Outlets](https://github.com/schefferac2020/MHack_IOS_Onboarding/blob/main/SwiftBasics.md)
 
 ## Skills you'll learn
 Below is a by no means exhaustive list of some of the skills you'll learn through this project.
