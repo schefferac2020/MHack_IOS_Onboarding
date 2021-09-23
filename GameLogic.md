@@ -42,7 +42,7 @@ Does your code look like something like this?
 
 Here we're using the slider's IBOutlet to get data about it, then print it to the screen. Try it out! See what it prints and when.
 
-Now just printing the value isn't that useful. We want to set the label and variables to be equal to this value. See if you can change the text of the guessLabel to equal this number. Can make it display only the digits only below the decimal point? Also, set the "userGuess" class variable to be equal to this integer number.
+Now just printing the value isn't that useful. We want to set the label and variables to be equal to this value. See if you can change the text of the guessLabel to equal this number. Can you make it display only the digits only below the decimal point? Also, set the "userGuess" class variable to be equal to this integer number.
 
 ```swift
 @IBAction func sliderDragged(_ sender: Any) {
