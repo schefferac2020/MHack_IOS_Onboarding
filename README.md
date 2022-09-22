@@ -26,4 +26,4 @@ Below is a by no means exhaustive list of some of the skills you'll learn throug
   - IBActions and IBOutlets
   - Alert View Controllers
 
-Contact Drew[drewskis@umich.edu] or Thomas[thsm@umich.edu] if you have any questions.
+Contact [Drew](drewskis@umich.edu) if you have any questions.
